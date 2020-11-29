@@ -16,10 +16,14 @@ export default {
    whisper - #F1EEF6
    Carey's pink - #CBA2B0
  */
+ * {
+   font-family: 'Raleway', sans-serif;
+ }
 :root{
   --royal-blue: #5166DD;
   --whisper: #F1EEF6;
-  --pink: #CBA2B0;
+  --pink: #fcaea2;
+  --deep: #2E2C5E;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
