@@ -1,9 +1,9 @@
 <template>
-    <b-navbar id="navBar" toggleable="md" type="dark"  class="primary-bg nav-height">
+    <b-navbar :sticky="false" id="navBar" toggleable="md" type="dark"  class="primary-bg nav-height">
         <b-container class="">
            <b-navbar-brand>
                 <a class="navbar-brand" href="#">
-                    <b-img class="logo" :src="require('@/assets/logo3.png')" fluid alt="Logo"></b-img>
+                    <b-img class="logo" :src="require('@/assets/washhub_logo.svg')" fluid alt="Logo"></b-img>
                 </a>
             </b-navbar-brand>
 
