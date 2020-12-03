@@ -1,7 +1,7 @@
 <template>
     <div id="hero" class="full-height secondary-bg">
        <div id="mainHero" class="hero-height primary-bg">
-         <b-container >
+         <b-container class="pr-0">
           <b-row align-v="center" class="pt-4">
             <b-col class="text-left">
               <p class="secondary-color heroText">
@@ -15,7 +15,7 @@
               <b-button id="heroAction" pill>Schedule A Pickup</b-button>
             </b-col>
             <b-col class="float-right">
-              <b-img :src="require('@/assets/wash_hub_hero.png')" class="heroImg" fluid alt="Illustration" ></b-img>
+              <b-img :src="require('@/assets/wash_hub_hero.png')"  class="heroImg" fluid alt="Illustration" ></b-img>
             </b-col>
           </b-row>
         </b-container>
@@ -44,7 +44,8 @@ export default {
     position: absolute;
     right: -7px;
     top: -26.5vh;
-    height: 82vh;
+    height: 80vh;
+
   }
   #heroAction {
     text-transform: uppercase;
