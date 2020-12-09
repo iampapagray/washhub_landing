@@ -1,5 +1,5 @@
 <template>
-    <b-navbar :sticky="false" id="navBar" toggleable="md" type="dark"  class="primary-bg nav-height">
+    <b-navbar :sticky="true" id="navBar" toggleable="md" type="dark"  class="primary-bg nav-height">
         <b-container class="">
            <b-navbar-brand>
                 <a class="navbar-brand" href="#">

@@ -42,7 +42,7 @@ export default {
   }
   .heroImg {
     position: absolute;
-    right: -7px;
+    right: 8px;
     top: -26.5vh;
     height: 80vh;
 

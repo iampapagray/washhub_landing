@@ -4,7 +4,8 @@
 
      <hero></hero>
 
-     <div id="about" class="bg-success">How it works</div>
+     <about></about>
+     
      <div id="features" class="bg-info">Features</div>
      <div id="featured" class="bg-danger">Featured Service</div>
      <div id="featuredPricing" class="bg-success">Featured Pricing</div>
@@ -15,13 +16,15 @@
 </template>
 
 <script>
+import About from '../widgets/About.vue'
 import Hero from '../widgets/Hero.vue'
 import NavBar from '../widgets/NavBar.vue'
 export default {
   name: 'HomePage',
   components: {
     NavBar,
-    Hero
+    Hero,
+    About
   },
   data () {
     return {

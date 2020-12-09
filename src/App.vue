@@ -21,7 +21,10 @@ export default {
  }
 :root{
   --royal-blue: #5166DD;
-  --whisper: #F1EEF6;
+  --whisper: #F4F6FD;
+  --whitish: #F4F6FD;
+  --grey: #A3A2BC;
+  --greyish: #F1EEF6;
   --pink: #fcaea2;
   --deep: #2E2C5E;
 }
