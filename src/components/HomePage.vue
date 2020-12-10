@@ -6,8 +6,8 @@
 
      <about></about>
      
-     <div id="features" class="bg-info">Features</div>
-     <div id="featured" class="bg-danger">Featured Service</div>
+     <featured></featured>
+
      <div id="featuredPricing" class="bg-success">Featured Pricing</div>
      <div id="feedback" class="bg-warning">Feedback</div>
      <div id="contact" class="bg-info">Contact</div>
@@ -17,6 +17,7 @@
 
 <script>
 import About from '../widgets/About.vue'
+import Featured from '../widgets/Featured.vue'
 import Hero from '../widgets/Hero.vue'
 import NavBar from '../widgets/NavBar.vue'
 export default {
@@ -24,7 +25,8 @@ export default {
   components: {
     NavBar,
     Hero,
-    About
+    About,
+    Featured
   },
   data () {
     return {

@@ -1,8 +1,8 @@
 <template>
     <div id="hero" class="full-height secondary-bg">
        <div id="mainHero" class="hero-height primary-bg">
-         <b-container class="pr-0">
-          <b-row align-v="center" class="pt-4">
+         <b-container class="">
+          <b-row align-v="center" class="hero-height">
             <b-col class="text-left">
               <p class="secondary-color heroText">
                 Laundry & dry cleaning picked up and delivered to 
@@ -33,7 +33,7 @@ export default {
     .heroText{
     font-weight: 800;
     font-size: 2.5em;
-    width:40vw;
+    width:27.2vw;
   }
   .heroDesc {
     font-weight: 800;
@@ -42,10 +42,9 @@ export default {
   }
   .heroImg {
     position: absolute;
-    right: 8px;
+    right: -8.35vw;
     top: -26.5vh;
-    height: 80vh;
-
+    height: 72vh;
   }
   #heroAction {
     text-transform: uppercase;
@@ -56,7 +55,5 @@ export default {
     font-size: 0.8rem;
     letter-spacing: 2px;
   }
-  #mainHero {
-    padding-left:5%;
-  }
+  /* #mainHero {} */
 </style>

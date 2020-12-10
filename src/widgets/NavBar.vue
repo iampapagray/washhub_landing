@@ -30,13 +30,9 @@ export default {
 </script>
 
 <style scoped>
-    #navBar {
-        padding-left:6%;
-        padding-right:6%;
-    }
+    /* #navBar {} */
     img.logo {
         height: 8vh;
-        width: 15vw;
     }
     .nav-link {
         text-transform: uppercase !important;

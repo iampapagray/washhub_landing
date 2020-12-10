@@ -40,7 +40,10 @@ export default {
   min-height: 85vh;
 }
 .hero-height {
-  min-height: 70vh;
+  min-height: 68vh;
+}
+.featured-height {
+  min-height: 65vh;
 }
 .nav-height{
   min-height: 15vh;

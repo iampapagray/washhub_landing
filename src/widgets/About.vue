@@ -51,29 +51,29 @@
                         </b-col>
                         <b-col class="pt-4">
                             <b-avatar size="5rem" class="aboutAv">
-                                <b-img :src="require('@/assets/schedule.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
+                                <b-img :src="require('@/assets/check-mark.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
                             </b-avatar>
-                            <p class="descHead">Schedule a Pickup</p>
-                            <p class="desc pt-3">
-                                Choose pickup and delivery days
+                            <p class="descHead1">Easy &amp; Convenient</p>
+                            <p class="desc">
+                                Our app makes scheduling hassle-free
                             </p>
                         </b-col>
                         <b-col class="pt-4">
                             <b-avatar size="5rem" class="aboutAv">
-                                <b-img :src="require('@/assets/pickup.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
+                                <b-img :src="require('@/assets/wallet.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
                             </b-avatar>
-                            <p class="desc pt-3">
-                                <span class="descHead">We Pickup</span> -
-                                Wash Hub delivery driver picks up your order
+                            <p class="descHead1">Competitive Pricing</p>
+                            <p class="desc">
+                                You won't find a better cleaner for the price
                             </p>
                         </b-col>
                         <b-col class="pt-4">
                             <b-avatar size="5rem" class="aboutAv">
-                                <b-img :src="require('@/assets/deliver.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
+                                <b-img :src="require('@/assets/quality-assurance.svg')"  class="aboutIcon" fluid alt="icon" ></b-img>
                             </b-avatar>
-                            <p class="desc pt-3">
-                                <span class="descHead">We Deliver</span> -
-                                Your clothes are dropped off clean and ready to wear
+                            <p class="descHead1">Quality Guarantee</p>
+                            <p class="desc">
+                                Our quality is the best in Accra
                             </p>
                         </b-col>
                    </b-row>
@@ -128,5 +128,10 @@ export default {
     }
     .descHead{
         color: var(--deep);
+    }
+    .descHead1{
+        font-size: 0.9rem;
+        color: var(--deep);
+        font-weight: 600;
     }
 </style>
