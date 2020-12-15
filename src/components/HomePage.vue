@@ -8,8 +8,10 @@
      
      <featured></featured>
 
-     <div id="featuredPricing" class="bg-success">Featured Pricing</div>
-     <div id="feedback" class="bg-warning">Feedback</div>
+    <featured-details></featured-details>
+
+    <feedback></feedback>
+    
      <div id="contact" class="bg-info">Contact</div>
      <div id="footer" class="bg-danger">Footer</div>
  </div>
@@ -18,6 +20,8 @@
 <script>
 import About from '../widgets/About.vue'
 import Featured from '../widgets/Featured.vue'
+import FeaturedDetails from '../widgets/FeaturedDetails.vue'
+import Feedback from '../widgets/Feedback.vue'
 import Hero from '../widgets/Hero.vue'
 import NavBar from '../widgets/NavBar.vue'
 export default {
@@ -26,7 +30,9 @@ export default {
     NavBar,
     Hero,
     About,
-    Featured
+    Featured,
+    FeaturedDetails,
+    Feedback
   },
   data () {
     return {
